@@ -2,6 +2,10 @@
     font-family: yu;
     src: url(/Heading-Now-Variable.ttf);
 }
+@font-face {
+    font-family: ca;
+    src: url(/canopi.ttf);
+}
 *{
     margin:0;
     padding:0;
@@ -37,4 +41,19 @@ html,body{
     font-stretch: 270%;
     font-weight: 999;
 
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(226, 222, 222);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loader h1{
+    font-size: 100px;
+    font-family: ca;
+    font-weight: 200;
 }
